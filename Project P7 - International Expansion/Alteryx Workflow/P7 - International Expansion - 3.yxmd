@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P7\Dataset with Reduced Variables.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Dataset with Reduced Variables.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country.Name" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Edu_Avg_Yrs_PC1" source="R-DATA:" type="Double" />
+            <Field name="Edu_Avg_Yrs_PC2" source="R-DATA:" type="Double" />
+            <Field name="Edu_Avg_Yrs_PC3" source="R-DATA:" type="Double" />
+            <Field name="Edu_Pct_PC1" source="R-DATA:" type="Double" />
+            <Field name="Edu_Pct_PC2" source="R-DATA:" type="Double" />
+            <Field name="Edu_Pct_PC3" source="R-DATA:" type="Double" />
+            <Field name="Edu_Lit_PC1" source="R-DATA:" type="Double" />
+            <Field name="Edu_Lit_PC2" source="R-DATA:" type="Double" />
+            <Field name="Edu_Lit_PC3" source="R-DATA:" type="Double" />
+            <Field name="EG_ELC_ACCS_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="EN_POP_SLUM_UR_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="FB_ATM_TOTL_P5" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="IC_ELC_TIME" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="IC_FRM_ISOC_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="IC_TAX_TOTL_CP_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="IQ_WEF_PORT_XQ" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="SE_XPD_TOTL_GD_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="SL_EMP_TOTL_SP_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="SL_TLF_SECO_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="SL_TLF_TOTL_IN" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="TM_TAX_MANF_SM_FN_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="UIS_PTRHC_2" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="UIS_PTRHC_3" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+            <Field name="UIS_PTRHC_56" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Ind).*') &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="162" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="the fields">Edu_Avg_Yrs_PC1 + Edu_Avg_Yrs_PC2 + Edu_Avg_Yrs_PC3 + Edu_Pct_PC1 + Edu_Pct_PC2 + Edu_Pct_PC3 + Edu_Lit_PC1 + Edu_Lit_PC2 + Edu_Lit_PC3 + EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + UIS_PTRHC_56</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">True</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="min clus">2</Value>
+          <Value name="max clus">4</Value>
+          <Value name="bootstrap rep">50</Value>
+          <Value name="num seeds">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="162" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="the fields">Edu_Avg_Yrs_PC1 + Edu_Avg_Yrs_PC2 + Edu_Avg_Yrs_PC3 + Edu_Pct_PC1 + Edu_Pct_PC2 + Edu_Pct_PC3 + Edu_Lit_PC1 + Edu_Lit_PC2 + Edu_Lit_PC3 + EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + UIS_PTRHC_56</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">False</Value>
+          <Value name="k-medians">True</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="min clus">2</Value>
+          <Value name="max clus">4</Value>
+          <Value name="bootstrap rep">50</Value>
+          <Value name="num seeds">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="162" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="the fields">Edu_Avg_Yrs_PC1 + Edu_Avg_Yrs_PC2 + Edu_Avg_Yrs_PC3 + Edu_Pct_PC1 + Edu_Pct_PC2 + Edu_Pct_PC3 + Edu_Lit_PC1 + Edu_Lit_PC2 + Edu_Lit_PC3 + EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + UIS_PTRHC_56</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">False</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">True</Value>
+          <Value name="min clus">2</Value>
+          <Value name="max clus">4</Value>
+          <Value name="bootstrap rep">50</Value>
+          <Value name="num seeds">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="258" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAJAMA~1.VAS\AppData\Local\Temp\Engine_15048_a62a50643270467d8ae2b1ecaeb30348_\Engine_16160_10ba74e212ea49909c6bdafb17d9535b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="258" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAJAMA~1.VAS\AppData\Local\Temp\Engine_15048_a62a50643270467d8ae2b1ecaeb30348_\Engine_16160_acc737fcb0eb43f394bc1ccadd185acd_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="258" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAJAMA~1.VAS\AppData\Local\Temp\Engine_15048_a62a50643270467d8ae2b1ecaeb30348_\Engine_16160_801d019903184ec9b877c9ac9418b504_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="162" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model name">InternationalExpansion</Value>
+          <Value name="the fields">Edu_Avg_Yrs_PC1 + Edu_Avg_Yrs_PC2 + Edu_Avg_Yrs_PC3 + Edu_Pct_PC1 + Edu_Pct_PC2 + Edu_Pct_PC3 + Edu_Lit_PC1 + Edu_Lit_PC2 + Edu_Lit_PC3 + EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + UIS_PTRHC_56</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">False</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">True</Value>
+          <Value name="num clus">4</Value>
+          <Value name="num seeds">10</Value>
+          <Value name="plot points">True</Value>
+          <Value name="plot centroids">False</Value>
+          <Value name="max comp">2</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Reports">
+          <RecordInfo>
+            <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+            <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings>
+        <Position x="318" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="clus name">Cluster</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country.Name" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Edu_Avg_Yrs_PC1" source="R-DATA:" type="Double" />
+            <Field name="Edu_Avg_Yrs_PC2" source="R-DATA:" type="Double" />
+            <Field name="Edu_Avg_Yrs_PC3" source="R-DATA:" type="Double" />
+            <Field name="Edu_Pct_PC1" source="R-DATA:" type="Double" />
+            <Field name="Edu_Pct_PC2" source="R-DATA:" type="Double" />
+            <Field name="Edu_Pct_PC3" source="R-DATA:" type="Double" />
+            <Field name="Edu_Lit_PC1" source="R-DATA:" type="Double" />
+            <Field name="Edu_Lit_PC2" source="R-DATA:" type="Double" />
+            <Field name="Edu_Lit_PC3" source="R-DATA:" type="Double" />
+            <Field name="EG_ELC_ACCS_ZS" source="R-DATA:" type="Double" />
+            <Field name="EN_POP_SLUM_UR_ZS" source="R-DATA:" type="Double" />
+            <Field name="FB_ATM_TOTL_P5" source="R-DATA:" type="Double" />
+            <Field name="IC_ELC_TIME" source="R-DATA:" type="Double" />
+            <Field name="IC_FRM_ISOC_ZS" source="R-DATA:" type="Double" />
+            <Field name="IC_TAX_TOTL_CP_ZS" source="R-DATA:" type="Double" />
+            <Field name="IQ_WEF_PORT_XQ" source="R-DATA:" type="Double" />
+            <Field name="SE_XPD_TOTL_GD_ZS" source="R-DATA:" type="Double" />
+            <Field name="SL_EMP_TOTL_SP_ZS" source="R-DATA:" type="Double" />
+            <Field name="SL_TLF_SECO_ZS" source="R-DATA:" type="Double" />
+            <Field name="SL_TLF_TOTL_IN" source="R-DATA:" type="Double" />
+            <Field name="TM_TAX_MANF_SM_FN_ZS" source="R-DATA:" type="Double" />
+            <Field name="UIS_PTRHC_2" source="R-DATA:" type="Double" />
+            <Field name="UIS_PTRHC_3" source="R-DATA:" type="Double" />
+            <Field name="UIS_PTRHC_56" source="R-DATA:" type="Double" />
+            <Field name="Cluster" source="R-DATA:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Append_Cluster.yxmc" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="258" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAJAMA~1.VAS\AppData\Local\Temp\Engine_15048_a62a50643270467d8ae2b1ecaeb30348_\Engine_16160_baa3986b68bb47058f01cd0ad52eb443_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAJAMA~1.VAS\AppData\Local\Temp\Engine_15048_a62a50643270467d8ae2b1ecaeb30348_\Engine_16160_cd0b4c03a812452787e7d827676ce604_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="414" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P7\Final Dataset.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Final Dataset.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="414" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Cluster] = 3 AND
+[Country.Name] != 'United States'</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Cluster] = 3 AND
+[Country.Name] != 'United States'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="510" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAJAMA~1.VAS\AppData\Local\Temp\Engine_15048_a62a50643270467d8ae2b1ecaeb30348_\Engine_16160_f05bc677e2de471a89f8692640d6b540_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="First Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Second Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Reports" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>P7 - International Expansion - 3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

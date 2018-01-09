@@ -1,0 +1,748 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>movies.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="imdb_id" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="popularity" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="budget" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="revenue" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="original_title" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="cast" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="homepage" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="director" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="tagline" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="keywords" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="overview" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="runtime" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="genres" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="production_companies" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="release_date" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="vote_count" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="vote_average" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="release_year" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="budget_adj" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="revenue_adj" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="162" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="id" selected="True" />
+            <Field field="imdb_id" selected="True" />
+            <Field field="popularity" selected="True" />
+            <Field field="budget" selected="True" />
+            <Field field="revenue" selected="True" />
+            <Field field="original_title" selected="True" />
+            <Field field="cast" selected="True" />
+            <Field field="homepage" selected="True" />
+            <Field field="director" selected="True" />
+            <Field field="tagline" selected="True" />
+            <Field field="keywords" selected="True" />
+            <Field field="overview" selected="True" />
+            <Field field="runtime" selected="True" />
+            <Field field="genres" selected="True" />
+            <Field field="production_companies" selected="True" />
+            <Field field="release_date" selected="True" />
+            <Field field="vote_count" selected="True" />
+            <Field field="vote_average" selected="True" />
+            <Field field="release_year" selected="True" />
+            <Field field="budget_adj" selected="True" />
+            <Field field="revenue_adj" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="Int32" />
+            <Field name="imdb_id" size="9" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="String" />
+            <Field name="popularity" size="21" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="budget" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="Int32" />
+            <Field name="revenue" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="Int64" />
+            <Field name="original_title" size="104" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="cast" size="110" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="homepage" size="242" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="director" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="tagline" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="keywords" size="131" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="overview" size="254" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="runtime" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="Int16" />
+            <Field name="genres" size="51" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="production_companies" size="184" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="release_date" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="Date" />
+            <Field name="vote_count" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="Int16" />
+            <Field name="vote_average" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="Double" />
+            <Field name="release_year" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="Int16" />
+            <Field name="budget_adj" size="18" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+            <Field name="revenue_adj" size="18" source="File: C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\movies.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="258" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="release_year" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>release_year - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="original_title" selected="True" rename="Title" />
+            <SelectField field="release_year" selected="True" rename="Year" />
+            <SelectField field="genres" selected="True" rename="Genre" />
+            <SelectField field="popularity" selected="True" rename="Popularity" />
+            <SelectField field="budget" selected="True" rename="Budget" />
+            <SelectField field="production_companies" selected="True" rename="Production_Companies" />
+            <SelectField field="runtime" selected="True" rename="Runtime" />
+            <SelectField field="imdb_id" selected="True" rename="IMDB_ID" />
+            <SelectField field="budget_adj" selected="True" rename="Budget_Adj" type="Double" size="8" />
+            <SelectField field="revenue_adj" selected="True" rename="Revenue_Adj" type="Double" size="8" />
+            <SelectField field="revenue" selected="True" rename="Revenue" />
+            <SelectField field="keywords" selected="True" rename="Keywords" />
+            <SelectField field="id" selected="False" />
+            <SelectField field="cast" selected="False" />
+            <SelectField field="homepage" selected="False" />
+            <SelectField field="director" selected="False" />
+            <SelectField field="tagline" selected="False" />
+            <SelectField field="overview" selected="False" />
+            <SelectField field="release_date" selected="False" />
+            <SelectField field="vote_count" selected="False" />
+            <SelectField field="vote_average" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="498" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Year]!= 0
+AND
+[Budget_Adj] != 0
+AND
+[Revenue_Adj] != 0
+AND
+[Runtime]!= 0
+AND
+[IMDB_ID]!= 'null'
+AND
+[Genre]!= 'null'
+AND
+[Popularity]!= 'null'
+AND
+[Production_Companies]!= 'null'</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year]!= 0
+AND
+[Budget_Adj] != 0
+AND
+[Revenue_Adj] != 0
+AND
+[...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="654" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Genre</Field>
+          <NumFields value="6" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Genre</RootName>
+          <Delimeters value="|" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAJAMA~1.VAS\AppData\Local\Temp\Engine_11604_12e7d5cb23574f2daee157ad09ce1232_\Engine_19444_bf9c043f59de44b8a9f4b1d3a44cad3a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="786" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Keywords</Field>
+          <NumFields value="5" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Keywords</RootName>
+          <Delimeters value="|" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="906" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Production_Companies</Field>
+          <NumFields value="5" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Production_Companies</RootName>
+          <Delimeters value="|" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1050" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Revenue_Adj]/[Budget_Adj]" field="Profitability" size="8" type="Double" />
+            <FormulaField expression="IF [keywords1]=='based on novel' THEN 'Yes' ELSE 'No' ENDIF" field="Based_on_Novel_1" size="2147483647" type="V_String" />
+            <FormulaField expression="IF [keywords2]=='based on novel' THEN 'Yes' ELSE 'No' ENDIF" field="Based_on_Novel_2" size="2147483647" type="V_String" />
+            <FormulaField expression="IF [keywords3]=='based on novel' THEN 'Yes' ELSE 'No' ENDIF" field="Based_on_Novel_3" size="2147483647" type="V_String" />
+            <FormulaField expression="IF [keywords4]=='based on novel' THEN 'Yes' ELSE 'No' ENDIF" field="Based_on_Novel_4" size="2147483647" type="V_String" />
+            <FormulaField expression="IF [keywords5]=='based on novel' THEN 'Yes' ELSE 'No' ENDIF" field="Based_on_Novel_5" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Profitability = [Revenue_Adj]/[Budget_Adj]
+Based_on_Novel_1 = IF [keywords1]=='b...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1182" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Genre" selected="False" />
+            <SelectField field="Budget" selected="False" />
+            <SelectField field="Production_Companies" selected="False" />
+            <SelectField field="Revenue" selected="False" />
+            <SelectField field="Keywords" selected="False" />
+            <SelectField field="Genre1" selected="True" rename="Genre" />
+            <SelectField field="Genre2" selected="False" />
+            <SelectField field="Genre3" selected="False" />
+            <SelectField field="Genre4" selected="False" />
+            <SelectField field="Genre5" selected="False" />
+            <SelectField field="Genre6" selected="False" />
+            <SelectField field="Production_Companies1" selected="True" rename="Production_Compa" />
+            <SelectField field="Production_Companies2" selected="False" />
+            <SelectField field="Production_Companies3" selected="False" />
+            <SelectField field="Production_Companies4" selected="False" />
+            <SelectField field="Production_Companies5" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1254" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Production_Compa</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Production_Compa])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1434" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Based_on_Novel_1]='Yes' THEN 'True'&#xA;ELSEIF [Based_on_Novel_2]='Yes' THEN 'True'&#xA;ELSEIF [Based_on_Novel_3]='Yes' THEN 'True'&#xA;ELSEIF [Based_on_Novel_4]='Yes' THEN 'True'&#xA;ELSEIF [Based_on_Novel_5]='Yes' THEN 'True'&#xA;ELSE 'False' ENDIF" field="Based_on_Novel" size="1" type="Bool" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Based_on_Novel = IF [Based_on_Novel_1]='Yes' THEN 'True'
+ELSEIF [Based_on_Novel_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1566" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="IMDB_ID" selected="True" />
+            <SelectField field="Popularity" selected="True" />
+            <SelectField field="Genre" selected="True" />
+            <SelectField field="Production_Compa" selected="True" />
+            <SelectField field="Budget_Adj" selected="True" />
+            <SelectField field="Revenue_Adj" selected="True" />
+            <SelectField field="Profitability" selected="True" />
+            <SelectField field="Based_on_Novel" selected="True" />
+            <SelectField field="Runtime" selected="True" />
+            <SelectField field="Year" selected="True" />
+            <SelectField field="Title" selected="False" />
+            <SelectField field="Keywords1" selected="False" />
+            <SelectField field="Keywords2" selected="False" />
+            <SelectField field="Keywords3" selected="False" />
+            <SelectField field="Keywords4" selected="False" />
+            <SelectField field="Keywords5" selected="False" />
+            <SelectField field="Based_on_Novel_1" selected="False" />
+            <SelectField field="Based_on_Novel_2" selected="False" />
+            <SelectField field="Based_on_Novel_3" selected="False" />
+            <SelectField field="Based_on_Novel_4" selected="False" />
+            <SelectField field="Based_on_Novel_5" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1650" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\Cleaned_Data.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cleaned_Data.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1650" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Production_Compa</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Paramount Pictures</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Production_Compa] = "Paramount Pictures"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1794" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\Paramount Pictures.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Paramount Pictures.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1674" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Production_Compa</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Universal Pictures</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Production_Compa] = "Universal Pictures"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1806" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\Universal Pictures.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Universal Pictures.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1746" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Based_on_Novel</Field>
+            <Operator>IsTrue</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Based_on_Novel] = 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1950" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\Based on Novel.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Based on Novel.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1950" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">C:\Users\rajamani.vasudevan\Downloads\Udacity\Project P3\Not based on Novels.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Not based on Novels.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="False" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Project 3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
